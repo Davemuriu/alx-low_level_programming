@@ -3,9 +3,16 @@
 /**
  * _isupper - function to check uppercase alphabets
  * @c: Int representing a character
- * Return: Always 0.
+ * Return: 0 or 1
  */
 int _isupper(int c)
 {
-	return (c >= 'A' && c <= 'Z');
+	if (c >= 'A' && c <= 'Z');
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
